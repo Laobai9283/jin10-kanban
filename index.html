@@ -53,7 +53,7 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;padding:0 0 30px;cursor:d
 </head>
 <body>
 <div class="header"><h1>📊 板块主力资金流向 · 分时走势</h1><div class="sub">数据源：同花顺 gnSection（服务端累积，cron每3分钟更新）</div></div>
-<div class="info-bar"><span>2026-07-21 周一 09:33 | 📊 1个采样点</span><span id="statusMsg">✅ 已加载</span></div>
+<div class="info-bar"><span>2026-07-21 周一 09:34 | 📊 1个采样点</span><span id="statusMsg">✅ 已加载</span></div>
 <div class="container">
 
 <section class="section">
@@ -65,7 +65,7 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;padding:0 0 30px;cursor:d
 <section class="section">
 <div class="stitle">📈 三大指数 分时走势<span class="tag">点击图表/表格可高亮线条</span></div>
 <div class="chart-wrap" style="position:relative"><canvas id="shChart"></canvas><div id="idxTooltip" class="chart-tooltip"></div>
-<div class="chart-legend-table"><table class="track-table-inline"><thead><tr><th>指数</th><th>点位</th><th>涨跌幅</th></tr></thead><tbody><tr class="idx-track-row" data-name="上证指数"><td class="sec-name" style="color:#58a6ff">上证指数</td><td class="dn">3784.86</td><td class="dn">-0.72%</td></tr><tr class="idx-track-row" data-name="深证成指"><td class="sec-name" style="color:#bc8cff">深证成指</td><td class="dn">13625.30</td><td class="dn">-0.23%</td></tr><tr class="idx-track-row" data-name="创业板指"><td class="sec-name" style="color:#f0883e">创业板指</td><td class="dn">3460.16</td><td class="dn">-0.26%</td></tr></tbody></table></div></div>
+<div class="chart-legend-table"><table class="track-table-inline"><thead><tr><th>指数</th><th>点位</th><th>涨跌幅</th></tr></thead><tbody><tr class="idx-track-row" data-name="上证指数"><td class="sec-name" style="color:#58a6ff">上证指数</td><td class="dn">3787.93</td><td class="dn">-0.64%</td></tr><tr class="idx-track-row" data-name="深证成指"><td class="sec-name" style="color:#bc8cff">深证成指</td><td class="dn">13640.76</td><td class="dn">-0.11%</td></tr><tr class="idx-track-row" data-name="创业板指"><td class="sec-name" style="color:#f0883e">创业板指</td><td class="dn">3466.69</td><td class="dn">-0.07%</td></tr></tbody></table></div></div>
 </section>
 
 <section class="section">
@@ -108,13 +108,13 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;padding:0 0 30px;cursor:d
 <div class="footer">
 数据来源：同花顺 gnSection<br>
 每3分钟服务端累积 · 仅学习参考<br>
-2026-07-21 09:33
+2026-07-21 09:34
 </div>
 </div>
 
 <script>
-var TS = {"date": "2026-07-21", "points": [{"t": "0933", "商业航天": 0.4, "半导体": 4.7, "CPO": 4.3, "国产芯片": 3.2, "算力": -0.2, "先进封装": 7.3, "资源": 2.6, "多模态AI": 1.4}]};
-var SH_TS = {"date": "2026-07-21", "points": [{"t": "0933", "上证指数": -0.72, "上证指数_p": 3784.86, "深证成指": -0.23, "深证成指_p": 13625.3, "创业板指": -0.26, "创业板指_p": 3460.16}]};
+var TS = {"date": "2026-07-21", "points": [{"t": "0934", "商业航天": 0.4, "半导体": 4.7, "CPO": 4.3, "国产芯片": 3.2, "算力": -0.2, "先进封装": 7.3, "资源": 2.6, "多模态AI": 1.4}]};
+var SH_TS = {"date": "2026-07-21", "points": [{"t": "0934", "上证指数": -0.64, "上证指数_p": 3787.93, "深证成指": -0.11, "深证成指_p": 13640.76, "创业板指": -0.07, "创业板指_p": 3466.69}]};
 var INDEX_NAMES = ['上证指数','深证成指','创业板指'];
 var TRACK_NAMES = ["商业航天", "半导体", "CPO", "国产芯片", "算力", "先进封装", "资源", "多模态AI"];
 var COLORS = ['#f85149','#d29922','#58a6ff','#3fb950','#bc8cff','#f0883e','#79c0ff','#8b5cf6','#34d399','#e06c75','#61afef','#c9d1d9','#7ee787'];
