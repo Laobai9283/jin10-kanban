@@ -53,18 +53,19 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;padding:0 0 30px;cursor:d
 </head>
 <body>
 <div class="header"><h1>📊 板块主力资金流向 · 分时走势</h1><div class="sub">数据源：同花顺 gnSection（服务端累积，cron每3分钟更新）</div></div>
-<div class="info-bar"><span>2026-09-04 周四 09:28 | 📊 0个采样点</span><span id="statusMsg">✅ 已加载</span></div>
+<div class="info-bar"><span>2026-09-04 周四 09:33 | 📊 1个采样点</span><span id="statusMsg">✅ 已加载</span></div>
 <div class="container">
 
 <section class="section">
 <div class="stitle">📈 主力资金流向（今日分时·累计净流入·亿元）<span class="tag">点击图表/列表可高亮线条</span></div>
 <div class="chart-wrap" style="position:relative"><canvas id="mainChart"></canvas><div id="mainTooltip" class="chart-tooltip"></div>
-<div class="chart-legend-table"><table class="track-table-inline"><thead><tr><th>板块</th><th>涨跌幅</th><th>净流入</th></tr></thead><tbody><tr class="track-row" data-name="商业航天"><td class="sec-name" style="color:#f85149">商业航天</td><td class="up">0.56%</td><td class="up">1.18亿</td></tr><tr class="track-row" data-name="半导体"><td class="sec-name" style="color:#d29922">半导体</td><td class="up">0.71%</td><td class="up">1.85亿</td></tr><tr class="track-row" data-name="CPO"><td class="sec-name" style="color:#58a6ff">CPO</td><td class="up">0.81%</td><td class="up">3.11亿</td></tr><tr class="track-row" data-name="国产芯片"><td class="sec-name" style="color:#3fb950">国产芯片</td><td class="up">1.03%</td><td class="up">1.72亿</td></tr><tr class="track-row" data-name="算力"><td class="sec-name" style="color:#bc8cff">算力</td><td class="up">0.81%</td><td class="up">0.03亿</td></tr><tr class="track-row" data-name="资源"><td class="sec-name" style="color:#79c0ff">资源</td><td class="up">0.70%</td><td class="up">0.07亿</td></tr><tr class="track-row" data-name="多模态AI"><td class="sec-name" style="color:#8b5cf6">多模态AI</td><td class="up">0.90%</td><td class="up">3.24亿</td></tr></tbody></table></div></div>
+<div class="chart-legend-table"><table class="track-table-inline"><thead><tr><th>板块</th><th>涨跌幅</th><th>净流入</th></tr></thead><tbody><tr class="track-row" data-name="商业航天"><td class="sec-name" style="color:#f85149">商业航天</td><td class="up">0.50%</td><td class="up">0.68亿</td></tr><tr class="track-row" data-name="半导体"><td class="sec-name" style="color:#d29922">半导体</td><td class="up">0.97%</td><td class="up">0.88亿</td></tr><tr class="track-row" data-name="CPO"><td class="sec-name" style="color:#58a6ff">CPO</td><td class="up">1.10%</td><td class="up">3.67亿</td></tr><tr class="track-row" data-name="国产芯片"><td class="sec-name" style="color:#3fb950">国产芯片</td><td class="up">1.05%</td><td class="up">0.53亿</td></tr><tr class="track-row" data-name="算力"><td class="sec-name" style="color:#bc8cff">算力</td><td class="up">0.71%</td><td class="dn">-3.13亿</td></tr><tr class="track-row" data-name="先进封装"><td class="sec-name" style="color:#f0883e">先进封装</td><td class="up">1.18%</td><td class="up">8.40亿</td></tr><tr class="track-row" data-name="资源"><td class="sec-name" style="color:#79c0ff">资源</td><td class="up">0.65%</td><td class="dn">-0.52亿</td></tr><tr class="track-row" data-name="多模态AI"><td class="sec-name" style="color:#8b5cf6">多模态AI</td><td class="up">1.21%</td><td class="up">4.59亿</td></tr></tbody></table></div></div>
 </section>
 
 <section class="section">
 <div class="stitle">📈 三大指数 分时走势<span class="tag">点击图表/表格可高亮线条</span></div>
-<div class="chart-wrap" style="position:relative"><canvas id="shChart"></canvas><div id="idxTooltip" class="chart-tooltip"></div></div>
+<div class="chart-wrap" style="position:relative"><canvas id="shChart"></canvas><div id="idxTooltip" class="chart-tooltip"></div>
+<div class="chart-legend-table"><table class="track-table-inline"><thead><tr><th>指数</th><th>点位</th><th>涨跌幅</th></tr></thead><tbody><tr class="idx-track-row" data-name="上证指数"><td class="sec-name" style="color:#58a6ff">上证指数</td><td class="up">3969.88</td><td class="up">0.36%</td></tr><tr class="idx-track-row" data-name="深证成指"><td class="sec-name" style="color:#bc8cff">深证成指</td><td class="up">13762.95</td><td class="up">0.27%</td></tr><tr class="idx-track-row" data-name="创业板指"><td class="sec-name" style="color:#f0883e">创业板指</td><td class="up">3357.42</td><td class="up">0.38%</td></tr></tbody></table></div></div>
 </section>
 
 <section class="section">
@@ -72,34 +73,34 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;padding:0 0 30px;cursor:d
 <div class="sector-grid">
   <div class="sector-card dynamic">
     <div class="sc-hd">IP经济(谷子经济)</div>
-    <div class="sc-val"><span class="up">0.09%</span></div>
-    <div class="sc-net up">5.81亿</div>
+    <div class="sc-val"><span class="up">0.30%</span></div>
+    <div class="sc-net up">3.06亿</div>
   </div>
   <div class="sector-card dynamic">
     <div class="sc-hd">文化传媒概念</div>
-    <div class="sc-val"><span class="up">0.19%</span></div>
-    <div class="sc-net up">5.71亿</div>
+    <div class="sc-val"><span class="up">0.35%</span></div>
+    <div class="sc-net up">4.95亿</div>
   </div>
   <div class="sector-card dynamic">
     <div class="sc-hd">短剧游戏</div>
-    <div class="sc-val"><span class="up">0.27%</span></div>
+    <div class="sc-val"><span class="up">1.00%</span></div>
     <div class="sc-net up">4.60亿</div>
   </div>
   <div class="sector-card dynamic">
     <div class="sc-hd">冷链物流</div>
-    <div class="sc-val"><span class="up">0.02%</span></div>
-    <div class="sc-net up">4.45亿</div>
+    <div class="sc-val"><span class="up">0.07%</span></div>
+    <div class="sc-net up">4.08亿</div>
   </div></div>
 </section>
 
 <section class="section">
 <div class="stitle">💰 资金流入TOP10</div>
-<div class="table-wrap"><table><thead><tr><th>#</th><th>板块</th><th>涨跌幅</th><th>净流入</th></tr></thead><tbody><tr class="sector-row" data-track="" data-name="IP经济(谷子经济)"><td class="idx">1</td><td class="sec-name">IP经济(谷子经济)</td><td class="up">0.09%</td><td class="up">5.81亿</td></tr><tr class="sector-row" data-track="" data-name="文化传媒概念"><td class="idx">2</td><td class="sec-name">文化传媒概念</td><td class="up">0.19%</td><td class="up">5.71亿</td></tr><tr class="sector-row" data-track="" data-name="短剧游戏"><td class="idx">3</td><td class="sec-name">短剧游戏</td><td class="up">0.27%</td><td class="up">4.60亿</td></tr><tr class="sector-row" data-track="" data-name="冷链物流"><td class="idx">4</td><td class="sec-name">冷链物流</td><td class="up">0.02%</td><td class="up">4.45亿</td></tr><tr class="sector-row" data-track="" data-name="虚拟数字人"><td class="idx">5</td><td class="sec-name">虚拟数字人</td><td class="up">0.66%</td><td class="up">3.97亿</td></tr><tr class="sector-row" data-track="" data-name="AI视频"><td class="idx">6</td><td class="sec-name">AI视频</td><td class="up">0.44%</td><td class="up">3.54亿</td></tr><tr class="sector-row" data-track="" data-name="新疆振兴"><td class="idx">7</td><td class="sec-name">新疆振兴</td><td class="up">0.26%</td><td class="up">3.24亿</td></tr><tr class="sector-row tracked" data-track="true" data-name="多模态AI"><td class="idx">8</td><td class="sec-name">多模态AI</td><td class="up">0.90%</td><td class="up">3.24亿</td></tr><tr class="sector-row" data-track="" data-name="光纤概念"><td class="idx">9</td><td class="sec-name">光纤概念</td><td class="up">0.81%</td><td class="up">3.11亿</td></tr><tr class="sector-row" data-track="" data-name="ChatGPT概念"><td class="idx">10</td><td class="sec-name">ChatGPT概念</td><td class="up">0.91%</td><td class="up">2.90亿</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>板块</th><th>涨跌幅</th><th>净流入</th></tr></thead><tbody><tr class="sector-row" data-track="" data-name="共封装光学(CPO)"><td class="idx">1</td><td class="sec-name">共封装光学(CPO)</td><td class="up">1.25%</td><td class="up">11.42亿</td></tr><tr class="sector-row" data-track="" data-name="存储芯片"><td class="idx">2</td><td class="sec-name">存储芯片</td><td class="up">1.20%</td><td class="up">8.48亿</td></tr><tr class="sector-row tracked" data-track="true" data-name="先进封装"><td class="idx">3</td><td class="sec-name">先进封装</td><td class="up">1.18%</td><td class="up">8.40亿</td></tr><tr class="sector-row" data-track="" data-name="同花顺新质50"><td class="idx">4</td><td class="sec-name">同花顺新质50</td><td class="up">1.16%</td><td class="up">7.91亿</td></tr><tr class="sector-row" data-track="" data-name="国企改革"><td class="idx">5</td><td class="sec-name">国企改革</td><td class="up">0.32%</td><td class="up">7.60亿</td></tr><tr class="sector-row" data-track="" data-name="人形机器人"><td class="idx">6</td><td class="sec-name">人形机器人</td><td class="up">0.94%</td><td class="up">7.30亿</td></tr><tr class="sector-row" data-track="" data-name="西部大开发"><td class="idx">7</td><td class="sec-name">西部大开发</td><td class="up">0.30%</td><td class="up">7.24亿</td></tr><tr class="sector-row tracked" data-track="true" data-name="商业航天"><td class="idx">8</td><td class="sec-name">商业航天</td><td class="up">0.92%</td><td class="up">6.71亿</td></tr><tr class="sector-row" data-track="" data-name="2026中报预增"><td class="idx">9</td><td class="sec-name">2026中报预增</td><td class="up">0.75%</td><td class="up">5.99亿</td></tr><tr class="sector-row" data-track="" data-name="机器视觉"><td class="idx">10</td><td class="sec-name">机器视觉</td><td class="up">1.15%</td><td class="up">5.35亿</td></tr></tbody></table></div>
 </section>
 
 <section class="section">
 <div class="stitle">💸 资金流出TOP10</div>
-<div class="table-wrap"><table><thead><tr><th>#</th><th>板块</th><th>涨跌幅</th><th>净流出</th></tr></thead><tbody><tr class="sector-row" data-track="" data-name="网约车"><td class="idx">1</td><td class="sec-name">网约车</td><td class="up">1.43%</td><td class="dn">1.57亿</td></tr><tr class="sector-row" data-track="" data-name="金属铅"><td class="idx">2</td><td class="sec-name">金属铅</td><td class="up">0.87%</td><td class="dn">0.94亿</td></tr><tr class="sector-row" data-track="" data-name="金属锌"><td class="idx">3</td><td class="sec-name">金属锌</td><td class="up">0.79%</td><td class="dn">0.86亿</td></tr><tr class="sector-row" data-track="" data-name="金属铜"><td class="idx">4</td><td class="sec-name">金属铜</td><td class="up">0.81%</td><td class="dn">0.62亿</td></tr><tr class="sector-row" data-track="" data-name="横琴新区"><td class="idx">5</td><td class="sec-name">横琴新区</td><td class="up">0.81%</td><td class="dn">0.41亿</td></tr><tr class="sector-row" data-track="" data-name="玉米"><td class="idx">6</td><td class="sec-name">玉米</td><td class="dn">-0.99%</td><td class="dn">0.34亿</td></tr><tr class="sector-row" data-track="" data-name="啤酒概念"><td class="idx">7</td><td class="sec-name">啤酒概念</td><td class="up">0.26%</td><td class="dn">0.32亿</td></tr><tr class="sector-row" data-track="" data-name="硅能源"><td class="idx">8</td><td class="sec-name">硅能源</td><td class="up">0.45%</td><td class="dn">0.31亿</td></tr><tr class="sector-row" data-track="" data-name="有机硅概念"><td class="idx">9</td><td class="sec-name">有机硅概念</td><td class="up">0.47%</td><td class="dn">0.29亿</td></tr><tr class="sector-row" data-track="" data-name="代糖概念"><td class="idx">10</td><td class="sec-name">代糖概念</td><td class="up">0.17%</td><td class="dn">0.26亿</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>板块</th><th>涨跌幅</th><th>净流出</th></tr></thead><tbody><tr class="sector-row" data-track="" data-name="移动支付"><td class="idx">1</td><td class="sec-name">移动支付</td><td class="up">2.05%</td><td class="dn">3.36亿</td></tr><tr class="sector-row" data-track="" data-name="国产操作系统"><td class="idx">2</td><td class="sec-name">国产操作系统</td><td class="up">1.43%</td><td class="dn">3.19亿</td></tr><tr class="sector-row" data-track="" data-name="算力租赁"><td class="idx">3</td><td class="sec-name">算力租赁</td><td class="up">0.71%</td><td class="dn">3.13亿</td></tr><tr class="sector-row" data-track="" data-name="英伟达概念"><td class="idx">4</td><td class="sec-name">英伟达概念</td><td class="up">1.12%</td><td class="dn">2.88亿</td></tr><tr class="sector-row" data-track="" data-name="ETC"><td class="idx">5</td><td class="sec-name">ETC</td><td class="up">1.36%</td><td class="dn">2.47亿</td></tr><tr class="sector-row" data-track="" data-name="电子身份证"><td class="idx">6</td><td class="sec-name">电子身份证</td><td class="up">1.90%</td><td class="dn">2.44亿</td></tr><tr class="sector-row" data-track="" data-name="2026一季报预增"><td class="idx">7</td><td class="sec-name">2026一季报预增</td><td class="up">0.92%</td><td class="dn">1.64亿</td></tr><tr class="sector-row" data-track="" data-name="网约车"><td class="idx">8</td><td class="sec-name">网约车</td><td class="up">1.42%</td><td class="dn">1.56亿</td></tr><tr class="sector-row" data-track="" data-name="数据安全"><td class="idx">9</td><td class="sec-name">数据安全</td><td class="up">1.40%</td><td class="dn">1.38亿</td></tr><tr class="sector-row" data-track="" data-name="碳纤维"><td class="idx">10</td><td class="sec-name">碳纤维</td><td class="up">0.91%</td><td class="dn">1.01亿</td></tr></tbody></table></div>
 </section>
 
 
@@ -107,13 +108,13 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;padding:0 0 30px;cursor:d
 <div class="footer">
 数据来源：同花顺 gnSection<br>
 每3分钟服务端累积 · 仅学习参考<br>
-2026-09-04 09:28
+2026-09-04 09:33
 </div>
 </div>
 
 <script>
-var TS = {"date": "2026-09-04", "points": []};
-var SH_TS = {"date": "2026-09-04", "points": []};
+var TS = {"date": "2026-09-04", "points": [{"t": "0933", "商业航天": 0.7, "半导体": 0.9, "CPO": 3.7, "国产芯片": 0.5, "算力": -3.1, "先进封装": 8.4, "资源": -0.5, "多模态AI": 4.6}]};
+var SH_TS = {"date": "2026-09-04", "points": [{"t": "0933", "上证指数": 0.36, "上证指数_p": 3969.88, "深证成指": 0.27, "深证成指_p": 13762.95, "创业板指": 0.38, "创业板指_p": 3357.42}]};
 var INDEX_NAMES = ['上证指数','深证成指','创业板指'];
 var TRACK_NAMES = ["商业航天", "半导体", "CPO", "国产芯片", "算力", "先进封装", "资源", "多模态AI"];
 var COLORS = ['#f85149','#d29922','#58a6ff','#3fb950','#bc8cff','#f0883e','#79c0ff','#8b5cf6','#34d399','#e06c75','#61afef','#c9d1d9','#7ee787'];
